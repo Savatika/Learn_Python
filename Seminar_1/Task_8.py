@@ -14,3 +14,9 @@ if flag == 1:
     print("YEEEES")
 else:
     print("no, no, god please no, NO!!!")   
+
+n = int(input())
+for i in range(1, n + 1):
+    i = 0
+    if i < n:
+        print(n**i)
